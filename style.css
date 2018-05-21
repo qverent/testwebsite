@@ -5,9 +5,8 @@
     
 a {
 	color: black;
-	text-decoration: none !important;
-}
-
+	}
+    
 /*Source: https://codepen.io/colinlord/post/horizontal-scrolling-containers for horizontal scrolling*/
 .album {
     border: 0;
@@ -129,6 +128,10 @@ nav li {
     text-decoration: none;
     
 }
+
+nav a {
+	text-decoration: none !important;
+	}
 
 nav li: active {
     border-bottom: 6px solid black;
