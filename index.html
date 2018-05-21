@@ -16,13 +16,47 @@
     
     <nav>
         <ul>
-            <li><a href="mailto:windwardpassage@outlook.com">Connect</a></li>
-            <li>View</li>
-            <li>4th Wall</li>
+            <li><a href="https://www.instagram.com/windwardpassage">Connect</a></li>
+            <li><a href="view.html">View</a></li>
+            <li><a href="index.html">4th Wall</a></li>
         </ul>
     </nav>
     
+    
     <main>
+		<h2>Caveats</h2>
+		<p>My first assignment from my summer 2018 CPSC490 class was to build a website utilizing HTML5, CSS3 and Javascript.
+		This website serves as a <strong>short experiment</strong> to pull together as much HTML/CSS/JS knowledge as I can in a short period of time
+		(around 13 hours was spent to learn and apply the knowledge) and as a repository for some of my travel images.</p>
+		<p>Thus, I consider this an <strong>incomplete</strong> website, with many areas that necessitate tweaking and fixing.
+		For starters, <strong>this website is optimized for the newest version of Chrome</strong>. If you are using another browser, it is highly likely that all horizontal galleries are underlined by a rather unsightly scrollbar.
+		Or, the horizontal galleries may not scroll at all. Given that this was a short experiment, please do not consider this reflective of my design principles, or writing skills!
+		</p>
+		<p>With all of the above in mind, feel free to head on over to the <a href="view.html"gallery!</a></p>
+		
+		
+		<h2>Memorable learnings from this project</h2>
+		<ul>
+			<li>Using JS to manipulate the DOM took up the bulk of my time. Unlike HTML and CSS, my experience with JS was much more limited.
+				<li>In particular, I tried to separate a .js function into two, in line with cohesion principles. However, this would involve
+				calling a dynamically created div by ID which was a problem as the DOM was not constantly refreshed.</li>
+				<li>Finding a way to load a .json file locally</li></li>
+			<li>Styling the mailto link; it does not count as "visited" so a:visited does not work</li>
+			<li>I got to practice GitHub via the command line and it was my first time setting up a Github page</li>
+		</ul>
+		<h2>Known issues and future improvements</h2>
+		<ul>
+		<li>Clean up the JS code (see above) so that it adheres better to the principle of coupling</li>
+		<li>Find a way for horizontal scrolling to be as unobtrusive across different browsers</li>
+		<li>Find a better font</li>
+		<li>Fix the vertical alignment of the caption overlay</li>
+		<li>Create a responsive version of the website?</li>
+		<li>Have all individual pages loaded by Javascript rather than using standalone .html files</li>
+		<li>Tweak the whitespace/text ratio</li></ul>
+		<h2>Sources</h2>
+		<p><a href="http://www.w3schools.org">W3Schools</a> was the primary resource. Stackoverflow was also consulted for questions.
+		Code for the horizontal scrolling was from <a href="https://codepen.io/colinlord/post/horizontal-scrolling-containers">Colin Lord at Codepen</a>
+		while code for the gallery overlay was based on the samples of <a href="https://www.jaimebutler.ch/create-overlay-caption-css/">Jaime Butler</a> and <a href="http://mikowl.com/2013/fun-with-figure-figcaption-elements/">Mikowl</a>.</p>
     </main>
 </body>
 </html>
