@@ -1,0 +1,21 @@
+gallery = [
+    {
+        "year" : 2016,
+        "locale" : "Serbia",
+        "photos" : [
+                        { "caption": "Ada Ciganlija, riverside haven",
+                          "image" : "Serbia\2016-09-31AdaCiganlija1web.jpg"}
+                        { "caption" : "Belgrade. Sunset.",
+                          "image" : "notfound.jpg"}
+            ]
+    }
+    
+    {
+        "year" : 2016,
+        "locale" : "Ethiopia",
+        "photos" : [
+                        { "caption" : "Human, why are you trying to get as high up as Abuna Yosef?",
+                          "image" : "\Ethiopia\Screenshot2016-05-15.jpg"
+            ]
+    }
+];
